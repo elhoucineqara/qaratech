@@ -3,7 +3,14 @@
 	"private": false,
 	"version": "1.0.0",
 	"description": "Template de portfolio professionnel moderne créé avec SvelteKit et TailwindCSS",
-	"keywords": ["portfolio", "template", "sveltekit", "tailwindcss", "professionnel", "développeur"],
+	"keywords": [
+		"portfolio",
+		"template",
+		"sveltekit",
+		"tailwindcss",
+		"professionnel",
+		"développeur"
+	],
 	"author": "El Houcine QARA",
 	"license": "Commercial",
 	"type": "module",
@@ -18,7 +25,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-vercel": "^6.1.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",

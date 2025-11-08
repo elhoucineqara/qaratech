@@ -44,7 +44,7 @@ export const POST: RequestHandler = async ({ request }) => {
     
     await sgMail.send({
       to: 'elhoucineqara114@gmail.com',
-      from: 'noreply@your-domain.com',
+      from: 'https://qaratech.vercel.app/',
       subject: `New Contact from ${data.firstName} ${data.lastName}`,
       text: `
         Name: ${data.firstName} ${data.lastName}

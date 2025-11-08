@@ -90,7 +90,7 @@
   title="El Houcine QARA - Full Stack Developer | Laravel, React, Node.js Expert"
   description="Full Stack Developer with 2+ years experience building enterprise applications. Expert in Laravel, React, Svelte, Node.js. Based in Morocco. Portfolio showcasing 15+ successful projects."
   keywords="Full Stack Developer Morocco, Laravel Developer, React Developer, Web Application Development, Enterprise Software, HARX, LMS Development, Morocco Software Engineer"
-  url="https://your-domain.com"
+  url="https://qaratech.vercel.app/"
 />
 
 <svelte:head>

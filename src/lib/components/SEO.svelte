@@ -13,7 +13,7 @@
   export let locale = 'en_US';
   
   // Configuration de l'URL de base
-  const baseUrl = 'https://portfolio-houcine.vercel.app';
+  const baseUrl = 'https://qaratech.vercel.app';
   
   // Obtenir l'URL complète dynamiquement
   $: currentUrl = browser ? window.location.href : baseUrl;

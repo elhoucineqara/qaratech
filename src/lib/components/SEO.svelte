@@ -7,7 +7,7 @@
   export let description = 'Full Stack Developer specializing in Laravel, React, Svelte, Node.js. Building scalable web applications with modern technologies. 2+ years experience in enterprise solutions.';
   export let keywords = 'Full Stack Developer, Web Developer, Laravel Developer, React Developer, Node.js, Svelte, TypeScript, Morocco Developer, Software Engineer, Web Applications';
   export let author = 'El Houcine QARA';
-  export let image = '/images/profile.jpg'; // Votre photo de profil par défaut
+  export let image = '/images/qaratech.jpg'; // Image optimisée pour SEO et réseaux sociaux
   export let type = 'website';
   export let twitterHandle = '@elhoucineqara';
   export let locale = 'en_US';

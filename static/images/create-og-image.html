@@ -192,10 +192,10 @@
             <li><strong>Choisissez votre photo</strong> (profile.jpg ou autre)</li>
             <li><strong>Modifiez</strong> les textes si besoin</li>
             <li><strong>Cliquez</strong> sur "Générer"</li>
-            <li><strong>Téléchargez</strong> l'image</li>
-            <li><strong>Renommez-la</strong> en <code>profile.jpg</code></li>
-            <li><strong>Remplacez</strong> dans <code>E:\usa\portfolio-houcine\static\images\profile.jpg</code></li>
-            <li><strong>Push</strong> sur GitHub et attendez 5 minutes</li>
+            <li><strong>Téléchargez</strong> l'image (sera nommée <code>qaratech.jpg</code>)</li>
+            <li><strong>Placez-la</strong> dans <code>E:\usa\portfolio-houcine\static\images\qaratech.jpg</code></li>
+            <li><strong>Push</strong> sur GitHub : <code>git add . && git commit -m "Add qaratech.jpg for SEO" && git push</code></li>
+            <li><strong>Attendez 3 minutes</strong> pour le déploiement Vercel</li>
         </ol>
     </div>
 
@@ -337,7 +337,7 @@
         
         function downloadImage() {
             const link = document.createElement('a');
-            link.download = 'profile.jpg';
+            link.download = 'qaratech.jpg';
             link.href = canvas.toDataURL('image/jpeg', 0.95);
             link.click();
         }
